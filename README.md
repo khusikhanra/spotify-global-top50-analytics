@@ -11,8 +11,7 @@
 
 <br>
 
-
-
+<img width="880" alt="Executive Overview page of the Spotify Global Top 50 Power BI dashboard" src="https://github.com/user-attachments/assets/6b8f935f-be77-4e33-bdd9-3adf2516df7f" />
 
 </div>
 
@@ -55,11 +54,11 @@ All figures below were recomputed directly from the raw CSV.
 |---|---|---|
 | 1 | **Taylor Swift is in a league of her own.** | 1,871 chart appearances (6.7% of every chart slot in the dataset) and a dominance score of **47,309**, roughly **1.7×** the runner-up, Sabrina Carpenter (27,103). Billie Eilish follows at 26,447. |
 | 2 | **Longevity and dominance are different things.** | *I Wanna Be Yours* (Arctic Monkeys) charted for **548 days but peaked at #11 and never entered the Top 10.** *Cruel Summer* charted 517 days and spent **253 of them in the Top 10**. |
-| 3 | **Breadth beats depth for the top artist.** | Taylor Swift placed **85 distinct tracks** on the chart, nearly 3× the next artist (Travis Scott, 30). |
+| 3 | **Her dominance is built on breadth.** | Taylor Swift placed **85 distinct tracks** on the chart, nearly 3× the next artist (Travis Scott, 30). |
 | 4 | **Singles outlast album tracks per song.** | Singles are 33.1% of unique tracks but 37.8% of chart-days, averaging ~38 days on chart vs ~32 for album tracks. |
 | 5 | **Explicit tracks churn faster.** | Explicit tracks are 44.7% of unique tracks but only 40.2% of chart-days, averaging ~30 days on chart vs ~36 for clean tracks. |
 | 6 | **Collaborations carry a small popularity premium.** | Tracks with a featured/joint artist average **90.7** popularity vs **89.4** for solo tracks (+1.3 pts). |
-| 7 | **Explicit content has no meaningful popularity penalty.** | The gap is −0.2 pts with zero-popularity rows included and flips to +0.2 pts when they are excluded, i.e. statistical noise. |
+| 7 | **Explicit content shows no meaningful popularity penalty.** | The gap is −0.2 pts with zero-popularity rows included and flips to +0.2 pts when they are excluded, i.e. statistical noise. |
 | 8 | **Chart popularity is uniformly high.** | Mean popularity is **89.6** (90.2 after excluding 182 records where the API returned 0). Fewer than 6% of chart-days score below 80. |
 
 > ⚠️ Findings 6 and 7 are descriptive differences in averages, not causal claims. No significance testing was performed.
@@ -71,25 +70,22 @@ All figures below were recomputed directly from the raw CSV.
 ### 1 · Executive Overview
 High-level KPIs, the monthly popularity trend, top artists, release-type mix, and explicit vs. clean tracks over time. Slicers: **Year**, **Album Type**, **Explicit Content**.
 
-<img width="1200" height="675" alt="01-executive-overview" src="https://github.com/user-attachments/assets/6b8f935f-be77-4e33-bdd9-3adf2516df7f" />
-
+<img width="100%" alt="Executive Overview page with KPI cards, monthly popularity trend, top artists, content mix and explicit vs clean tracks" src="https://github.com/user-attachments/assets/6b8f935f-be77-4e33-bdd9-3adf2516df7f" />
 
 ### 2 · Track & Artist Deep-Dive
 Artists ranked by a custom **Chart Dominance Score**, a peak-rank vs. longevity scatter, a popularity trend, and a track table with a rule-based **Performance Tier**.
 
-<img width="1200" height="675" alt="02-track-artist-deep-dive" src="https://github.com/user-attachments/assets/48fd6e36-73c4-468f-a1f7-7d587959f4b7" />
-
+<img width="100%" alt="Track and Artist Deep-Dive page with dominance ranking, peak rank vs longevity scatter and performance tier table" src="https://github.com/user-attachments/assets/48fd6e36-73c4-468f-a1f7-7d587959f4b7" />
 
 ### 3 · Catalog & Content Insights
 Duration distribution, explicit vs. clean split, collaboration share, and chart performance categories across the full catalog.
 
-<img width="1200" height="675" alt="03-catalog-content-insights" src="https://github.com/user-attachments/assets/1b33cd55-d0c3-409d-9a6a-ddfd0c540f82" />
-
+<img width="100%" alt="Catalog and Content Insights page with duration profile, explicit split and chart performance categories" src="https://github.com/user-attachments/assets/1b33cd55-d0c3-409d-9a6a-ddfd0c540f82" />
 
 ### 4 · About
 Project background, data source, page guide, and methodology, embedded in the report so the definitions travel with the file.
 
-<img width="1200" height="675" alt="04-about" src="https://github.com/user-attachments/assets/2b421344-5023-4f11-bfa1-ca0e9e0f73ea" />
+<img width="100%" alt="About page describing project background, data source, page guide and methodology" src="https://github.com/user-attachments/assets/2b421344-5023-4f11-bfa1-ca0e9e0f73ea" />
 
 ---
 
@@ -185,7 +181,8 @@ Transparency about what the data can and cannot support:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/khusikhanra/<repository-name>.git
+   git clone https://github.com/khusikhanra/spotify-global-top50-analytics.git
+   cd spotify-global-top50-analytics
    ```
 2. Open `Spotify_Global_Top50_Analytics.pbix` in Power BI Desktop.
 3. If prompted for the data source, point it to `data/spotify_global_top_50.csv`
@@ -200,13 +197,8 @@ Transparency about what the data can and cannot support:
 .
 ├── README.md
 ├── Spotify_Global_Top50_Analytics.pbix   # Power BI report (model, DAX, visuals)
-├── data/
-│   └── spotify_global_top_50.csv         # 27,800 chart-day records
-└── assets/                               # Dashboard screenshots used in this README
-    ├── 01-executive-overview.png
-    ├── 02-track-artist-deep-dive.png
-    ├── 03-catalog-content-insights.png
-    └── 04-about.png
+└── data/
+    └── spotify_global_top_50.csv         # 27,800 chart-day records
 ```
 
 ---
