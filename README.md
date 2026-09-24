@@ -76,17 +76,19 @@ High-level KPIs, the monthly popularity trend, top artists, release-type mix, an
 ### 2 · Track & Artist Deep-Dive
 Artists ranked by a custom **Chart Dominance Score**, a peak-rank vs. longevity scatter, a popularity trend, and a track table with a rule-based **Performance Tier**.
 
-<img src="assets/02-track-artist-deep-dive.png" alt="Track and Artist Deep-Dive" width="100%">
+<img width="1200" height="675" alt="02-track-artist-deep-dive" src="https://github.com/user-attachments/assets/48fd6e36-73c4-468f-a1f7-7d587959f4b7" />
+
 
 ### 3 · Catalog & Content Insights
 Duration distribution, explicit vs. clean split, collaboration share, and chart performance categories across the full catalog.
 
-<img src="assets/03-catalog-content-insights.png" alt="Catalog and Content Insights" width="100%">
+<img width="1200" height="675" alt="03-catalog-content-insights" src="https://github.com/user-attachments/assets/1b33cd55-d0c3-409d-9a6a-ddfd0c540f82" />
+
 
 ### 4 · About
 Project background, data source, page guide, and methodology, embedded in the report so the definitions travel with the file.
 
-<img src="assets/04-about.png" alt="About page" width="100%">
+<img width="1200" height="675" alt="04-about" src="https://github.com/user-attachments/assets/2b421344-5023-4f11-bfa1-ca0e9e0f73ea" />
 
 ---
 
