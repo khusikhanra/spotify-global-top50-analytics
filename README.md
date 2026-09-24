@@ -71,7 +71,8 @@ All figures below were recomputed directly from the raw CSV.
 ### 1 · Executive Overview
 High-level KPIs, the monthly popularity trend, top artists, release-type mix, and explicit vs. clean tracks over time. Slicers: **Year**, **Album Type**, **Explicit Content**.
 
-<img src="assets/01-executive-overview.png" alt="Executive Overview" width="100%">
+<img width="1200" height="675" alt="01-executive-overview" src="https://github.com/user-attachments/assets/6b8f935f-be77-4e33-bdd9-3adf2516df7f" />
+
 
 ### 2 · Track & Artist Deep-Dive
 Artists ranked by a custom **Chart Dominance Score**, a peak-rank vs. longevity scatter, a popularity trend, and a track table with a rule-based **Performance Tier**.
