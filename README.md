@@ -11,7 +11,8 @@
 
 <br>
 
-<img src="assets/01-executive-overview.png" alt="Executive Overview page of the Spotify Global Top 50 dashboard" width="880">
+<img width="1200" height="675" alt="01-executive-overview" src="https://github.com/user-attachments/assets/c261b078-35f0-4b3a-9438-2cda0e4abe3d" />
+
 
 </div>
 
